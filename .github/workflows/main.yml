@@ -31,7 +31,7 @@ jobs:
         env:
           REPO: self
           BRANCH: acc # The branch name where you want to push the assets
-          FOLDER: build
+          FOLDER: /
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
           MESSAGE: "cm2345" # The commit message
 
